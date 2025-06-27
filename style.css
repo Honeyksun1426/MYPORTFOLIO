@@ -46,6 +46,9 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    font-variant: initial;
+    .gradient-text;color: chocolate;
+
 }
 
 .nav-menu {
