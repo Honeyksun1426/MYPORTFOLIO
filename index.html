@@ -1,0 +1,331 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio - UI/UX & Frontend Developer</title>
+    <meta name="description" content="Professional Portfolio - UI/UX Designer & Frontend Developer">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Portfolio</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-bg"></div>
+        <div class="container">
+            <div class="home-content">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="images/profile1.jpg" alt="Profile Picture" id="profileImg">
+                        <div class="profile-ring"></div>
+                    </div>
+                </div>
+                <div class="home-text">
+                    <h1 class="home-title">
+                        <span class="gradient-text">UI/UX Designer &</span>
+                        <span class="gradient-text">Frontend Developer</span>
+                    </h1>
+                    <p class="home-description">
+                        Final year Bachelor of Computer Application student passionate about creating 
+                        beautiful and functional digital experiences. Specializing in UI/UX design 
+                        and modern frontend development.I love to create designing works passionable in vedio editting
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/honeyksun-navaneethan-735798349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Honeyksun1426" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/mr_stonner_xo?igsh=MjQ4aXF0NTVlNzJt" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:your.honeyksun14.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <button class="cta-button" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                        Get In Touch
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm a passionate UI/UX Designer and Frontend Developer currently pursuing my final year 
+                        in Bachelor of Computer Application. I specialize in creating intuitive user interfaces 
+                        and seamless user experiences that bridge the gap between design and functionality.
+                    </p>
+                    <p class="about-description">
+                        My expertise lies in transforming complex ideas into simple, elegant designs that users love. 
+                        I combine creativity with technical skills to deliver exceptional digital solutions that 
+                        not only look great but also perform flawlessly across all devices.
+                    </p>
+                </div>
+                
+                <div class="education-container">
+                    <h3 class="subsection-title">Education</h3>
+                    <div class="education-cards">
+                        <div class="education-card">
+                            <div class="card-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>Bachelor of Computer Application</h4>
+                                <p class="card-subtitle">Final Year - Current</p>
+                                <p class="card-description">Pursuing comprehensive knowledge in computer applications, programming, and software development.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="education-card">
+                            <div class="card-icon">
+                                <i class="fas fa-school"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>Higher Secondary Certificate (HSC)</h4>
+                                <p class="card-subtitle">12th Grade - Completed</p>
+                                <p class="card-description">Completed higher secondary education with focus on maths and science.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="education-card">
+                            <div class="card-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="card-content">
+                                <h4>Secondary School Leaving Certificate (SSLC)</h4>
+                                <p class="card-subtitle">10th Grade - Completed</p>
+                                <p class="card-description">Completed secondary education with strong foundation in core subjects of accounting and commerce with computer applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-container">
+                    <h3 class="subsection-title">Experience</h3>
+                    <div class="experience-card">
+                        <div class="card-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="card-content">
+                            <h4>WEB DEVELOPING INTERN FOR 30 DAYS </h4>
+                            <p class="card-subtitle">FIGMA IN ONLINE 6 MONTHS</p>
+                            <p class="card-description">
+                                Gained hands-on experience in user research, wireframing, prototyping, and 
+                                visual design. Worked on mini projects for my studies and learned with my friends.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3 class="skill-name">HTML</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-percentage="80"></div>
+                    </div>
+                    <span class="skill-percentage">80%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3 class="skill-name">CSS</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-percentage="75"></div>
+                    </div>
+                    <span class="skill-percentage">75%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-percentage="65"></div>
+                    </div>
+                    <span class="skill-percentage">65%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="skill-name">UI/UX Design</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-percentage="88"></div>
+                    </div>
+                    <span class="skill-percentage">88%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-figma"></i>
+                    </div>
+                    <h3 class="skill-name">Figma</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-percentage="92"></div>
+                    </div>
+                    <span class="skill-percentage">92%</span>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3 class="skill-name">Adobe XD</h3>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-percentage="70"></div>
+                    </div>
+                    <span class="skill-percentage">70%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/TRENDSETTER IMG.png" alt="SHOPPING SITE Dashboard">
+                        <div class="project-overlay">
+                            <a href="#" class="https://honeyksun1426.github.io/FASHINTRENDS2025/" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-commerce Dashboard</h3>
+                        <p class="project-description">
+                            A modern e-commerce dashboard with analytics, user management, and inventory tracking. 
+                            Built with HTML, CSS, and JavaScript with responsive design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">UI/UX</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&h=300&fit=crop" alt="Portfolio Website">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Restaurant Website</h3>
+                        <p class="project-description">
+                            A beautiful restaurant website with online reservation system, menu showcase, 
+                            and customer reviews. Features smooth animations and mobile-first design.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Figma</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Create Something Amazing Together</h3>
+                    <p>
+                        I'm always excited to work on new projects and collaborate with creative minds. 
+                        As i am a student i love work with freelance and gaining experience.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>honeyksun14@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>TIRUCHENGODE,TAMILNADU,INDIA</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
