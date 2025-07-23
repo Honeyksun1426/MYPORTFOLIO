@@ -337,3 +337,16 @@ const debouncedScrollHandler = debounce(() => {
 window.addEventListener('scroll', debouncedScrollHandler);
 
 console.log('Portfolio loaded successfully! 🚀');
+
+function Sendmail(){
+    let parms ={
+
+    }
+    name : document.getElementById("name").value,
+    email : document.getElementById("emmail").value,
+    subject : document.getElementById("subject").value,
+    message : document.getElementById("message").value,
+    emailjs.send("service_3o3h0le","template_7zzawpe"parms).then(alert(Email Sent!!""))
+}
+
+
